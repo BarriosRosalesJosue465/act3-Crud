@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Firebase',
+      debugShowCheckedModeBanner: false,
+      title: 'Sabritas',
       initialRoute: '/',
       routes: {
         '/': (context) => const HomePage(),
